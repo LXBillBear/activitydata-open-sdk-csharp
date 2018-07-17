@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 ///billbear.sdk.tool
 namespace com.billbear.activitydata.open.sdk.bean.shop
 {
-    public class ShopLiteRestDto
+    public class ShopRestDto
     {
     
      
@@ -29,6 +29,16 @@ namespace com.billbear.activitydata.open.sdk.bean.shop
 	
 	    [JsonProperty("address")]
         public String Address { get; set; }               
+    
+     
+	
+	    [JsonProperty("latitude")]
+        public Double Latitude { get; set; }               
+    
+     
+	
+	    [JsonProperty("longitude")]
+        public Double Longitude { get; set; }               
     
      
 	

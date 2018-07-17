@@ -36,6 +36,16 @@ namespace com.billbear.activitydata.open.sdk.bean.shop
 	    [JsonProperty("logoSmall")]
         public String LogoSmall { get; set; }               
     
+     
+	
+	    [JsonProperty("latitude")]
+        public Double Latitude { get; set; }               
+    
+     
+	
+	    [JsonProperty("longitude")]
+        public Double Longitude { get; set; }               
+    
     
     }
 }

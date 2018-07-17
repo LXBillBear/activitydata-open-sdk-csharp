@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Newtonsoft.Json;
+using com.billbear.activitydata.open.sdk.bean.shop;
 
 ///billbear.sdk.tool
 namespace com.billbear.activitydata.open.sdk.bean.shop
 {
-    public class ShopLiteRestDto
+    public class ShopActivityLiteRestDto
     {
     
      
@@ -22,18 +23,18 @@ namespace com.billbear.activitydata.open.sdk.bean.shop
     
      
 	
+	    [JsonProperty("acts")]
+        public List<ActivityLiteRestDto> Acts { get; set; }               
+    
+     
+	
 	    [JsonProperty("shopName")]
         public String ShopName { get; set; }               
     
      
 	
-	    [JsonProperty("address")]
-        public String Address { get; set; }               
-    
-     
-	
-	    [JsonProperty("tel")]
-        public String Tel { get; set; }               
+	    [JsonProperty("logoSmall")]
+        public String LogoSmall { get; set; }               
     
     
     }

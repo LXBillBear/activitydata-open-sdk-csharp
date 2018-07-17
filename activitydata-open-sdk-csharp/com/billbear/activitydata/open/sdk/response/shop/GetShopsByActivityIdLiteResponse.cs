@@ -7,11 +7,11 @@ using com.billbear.activitydata.open.sdk.bean.shop;
 
 namespace com.billbear.activitydata.open.sdk.response.shop
 {
-    public class GetShopsByActivityIdResponse:BaseResponse
+    public class GetShopsByActivityIdLiteResponse:BaseResponse
     {
         
         [JsonProperty("data")]
-	    public List<ShopRestDto> Data { get; set; }               
+	    public List<ShopLiteRestDto> Data { get; set; }               
     
 
     }
