@@ -25,6 +25,16 @@ namespace com.billbear.activitydata.open.sdk.bean.shop
 	    [JsonProperty("bankName")]
         public String BankName { get; set; }               
     
+     
+	
+	    [JsonProperty("category")]
+        public String Category { get; set; }               
+    
+     
+	
+	    [JsonProperty("availableTime")]
+        public String AvailableTime { get; set; }               
+    
     
     }
 }

@@ -47,6 +47,11 @@ namespace com.billbear.activitydata.open.sdk.bean.activity
     
      
 	
+	    [JsonProperty("category")]
+        public String Category { get; set; }               
+    
+     
+	
 	    [JsonProperty("subjectDescription")]
         public String SubjectDescription { get; set; }               
     

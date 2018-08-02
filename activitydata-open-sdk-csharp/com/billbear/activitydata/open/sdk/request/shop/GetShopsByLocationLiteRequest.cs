@@ -17,7 +17,13 @@ namespace com.billbear.activitydata.open.sdk.request.shop
         public Double Longitude { get; set; }            
     
  
-        public Int64 Id { get; set; }            
+        public String BankName { get; set; }            
+    
+ 
+        public String Category { get; set; }            
+    
+ 
+        public DateTime Date { get; set; }            
     
 
 
@@ -31,7 +37,9 @@ namespace com.billbear.activitydata.open.sdk.request.shop
 		    Dictionary<String, Object> map = new Dictionary<String, Object>();
             map.Add("latitude", this.Latitude);
             map.Add("longitude", this.Longitude);
-            map.Add("id", this.Id);
+            map.Add("bankName", this.BankName);
+            map.Add("category", this.Category);
+            map.Add("date", this.Date);
             return Newtonsoft.Json.JsonConvert.SerializeObject(map);
         }
     }
