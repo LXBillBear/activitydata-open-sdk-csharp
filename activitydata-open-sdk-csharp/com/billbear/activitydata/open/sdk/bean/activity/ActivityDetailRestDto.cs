@@ -70,6 +70,11 @@ namespace com.billbear.activitydata.open.sdk.bean.activity
 	    [JsonProperty("endDate")]
         public DateTime EndDate { get; set; }               
     
+     
+	
+	    [JsonProperty("cityNames")]
+        public String CityNames { get; set; }               
+    
     
     }
 }

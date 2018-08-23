@@ -32,6 +32,11 @@ namespace com.billbear.activitydata.open.sdk.bean.shop
     
      
 	
+	    [JsonProperty("bigImgUrl")]
+        public String BigImgUrl { get; set; }               
+    
+     
+	
 	    [JsonProperty("availableTime")]
         public String AvailableTime { get; set; }               
     
